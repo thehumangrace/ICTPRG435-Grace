@@ -1,0 +1,124 @@
+<!-- SLE-ALE Calculator -->
+<!-- Name: Grace Garrett -->
+<!-- Date:16/10/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data.title }}</title>
+    <!-- This links the CSS stylesheet -->
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- This creates the top banner with full width -->
+    <div class="web-banner">
+        <img src="{{ url_for('static', filename='web_banner.png') }}" alt="Web page">
+    </div>
+
+    <!-- This creates the second banner with homepage welcome and side decorations -->
+    <div class="homepage-banner">
+        <div class="banner-with-decorations">
+            <img src="{{ url_for('static', filename='dollar_spin.gif') }}" alt="decoration" class="side-decoration">
+            <img src="{{ url_for('static', filename='welcome_to_my_homepage.gif') }}" alt="Welcome to my homepage" class="main-banner">
+            <img src="{{ url_for('static', filename='dollar_spin_2.gif') }}" alt="decoration" class="side-decoration">
+        </div>
+    </div>
+
+    
+    <!-- This creates the main calculator window -->
+    <div class="window">
+        <!-- This creates the Windows 95 style title bar -->
+        <h1>
+            <span>{{ data.title }}</span>
+        </h1>
+        
+        <!-- This contains all the window content -->
+        <div class="window-content">
+            <!-- This creates the input form with POST method -->
+            <form action="/" method="POST">
+                <table>
+                    <!-- This creates the Asset Value input field -->
+                    <tr>
+                        <td><label for="asset_value">Asset Value: $</label></td>
+                        <td><input type="number" id="asset_value" name="asset_value"
+                                   value="{{ data.asset_value }}" step="0.01" required></td>
+                    </tr>
+
+                    <!-- This creates the Exposure Value input field -->
+                    <tr>
+                        <td><label for="exposure_value">Exposure Value: %</label></td>
+                        <td><input type="number" id="exposure_value" name="exposure_value"
+                                   value="{{ data.exposure_value }}" step="0.01" required></td>
+                    </tr>
+
+                    <!-- This creates the ARO input field -->
+                    <tr>
+                        <td><label for="aro">Annualised Rate of Occurrence: </label></td>
+                        <td><input type="number" id="aro" name="aro"
+                                   value="{{ data.aro }}" step="0.01" min="0" required></td>
+                    </tr>
+
+                    <!-- This creates the action buttons -->
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Calculate</button>
+                            <button type="button" onclick="window.location.href='/clear'">Clear</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <!-- This displays error messages if they exist -->
+            {% if data.error %}
+            <div class="error-message">
+                <p>{{ data.error }}</p>
+            </div>
+            {% endif %}
+
+            <!-- This displays the results if SLE has been calculated -->
+            {% if data.sle != "" %}
+            <!-- This creates the rainbow divider -->
+            <hr>
+            <!-- This creates the results heading -->
+            <h2>Results</h2>
+            <!-- This displays the calculated results -->
+            <div class="results">
+                <table>
+                    <!-- This displays the Single Loss Expectancy -->
+                    <tr>
+                        <td><strong>Single Loss Expectancy (SLE):</strong></td>
+                        <td>${{ data.sle }}</td>
+                    </tr>
+                    
+                    <!-- This displays the Annualized Loss Expectancy -->
+                    <tr>
+                        <td><strong>Annualized Loss Expectancy (ALE):</strong></td>
+                        <td>${{ data.ale }}</td>
+                    </tr>
+                </table>
+            </div>
+            {% endif %}
+            
+            <!-- This creates the GIF section with multiple images side by side -->
+            <div class="gif-container">
+                <img src="{{ url_for('static', filename='german_shepard.gif') }}" alt="decoration">
+                <img src="{{ url_for('static', filename='spinning_globe.gif') }}" alt="spinning globe">
+                <img src="{{ url_for('static', filename='german_shepard_2.gif') }}" alt="decoration">
+            </div>
+            
+            <!-- This creates the Netscape Navigator badge -->
+            <div class="netscape-badge">
+                <img src="{{ url_for('static', filename='netscape_picture.gif') }}" alt="Netscape Now">
+                <div class="badge-text">Best viewed with Netscape Navigator 2.0</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- This creates the bottom banner -->
+    <div class="bottom-banner">
+        <img src="{{ url_for('static', filename='hack_the_planet.gif') }}" alt="Hack the Planet">
+    </div>
+</body>
+</html>

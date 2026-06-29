@@ -1,3 +1,5 @@
+```pseudocode
+
 #!/usr/bin/env python3
 
 #SLE-ALE Calculator
@@ -83,3 +85,5 @@ MAIN PROGRAM
 
     START web application on port 8080
 END PROGRAM
+
+```

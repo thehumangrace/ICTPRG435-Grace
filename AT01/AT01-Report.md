@@ -514,7 +514,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
- ![Error 1 original](images/image1.PNG)
+ ![Error 1 original](photos/image-01.PNG)
 
  ![Error 1 corrected](images/image2.PNG)
 

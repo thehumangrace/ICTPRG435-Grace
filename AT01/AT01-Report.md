@@ -96,7 +96,6 @@ Software Consultant
 ### English Method (Pseudocode)
 
 ```pseudocode
-\\!/usr/bin/env python3
 \\SLE-ALE Calculator
 \\Name: Grace Garrett
 \\Date: 16/10/2025

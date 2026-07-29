@@ -63,7 +63,7 @@ Please see attached:
 3. The documentation of which Python graphical user interface (GUI) framework and interactive development environment (IDE) was used during development
 4. All amended code for Application_3a.py, Application_3b.py and Application_3c.py
 
-If you have any question or queries feel free to send me an email and I will be happy to elaborate.
+If you have any question or queries, feel free to send me an email and I will be happy to elaborate.
 
 Regards,
 
@@ -77,21 +77,11 @@ Software Consultant
 
 ### Input-Process-Output Chart
 
-| Input                         | Process                                             | Output                                     |
-| ----------------------------- | --------------------------------------------------- | ------------------------------------------ |
-| Asset Value                   | Multiply: Asset Value × Exposure Value = SLE        | SLE is: *Single Loss Expectancy (SLE)*     |
-| Exposure Value                | Multiply: SLE × Annualised Rate of Occurrence = ALE | ALE is: *Annualised Loss Expectancy (ALE)* |
-| Annualised Rate of Occurrence |                                                     |                                            |
+ ![input-output-chart](../AT01//photos/image-21-input-output-table.png)
 
 ### Variable List
 
-| Variable       | Type  | Description                                                  |
-| -------------- | ----- | ------------------------------------------------------------ |
-| asset_value    | Float | How much item cost                                           |
-| exposure_value | Float | Percentage of asset value that would be lost if a security incident occurred |
-| aro            | Float | The amount of times an incident is expected to occur         |
-| sle            | Float | The expected monetary loss from a single incident            |
-| ale            | Float | The expected monetary loss annually                          |
+![variable-chart](../AT01//photos/image-22-variable-table.png)
 
 ### English Method (Pseudocode)
 
@@ -284,27 +274,7 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 ```
 
 ### Desk Check - Summary Table - All Results
-
-| Device      | Exposure Level | Asset Value ($) | Exposure Value (%) | ARO  | SLE ($) | ALE ($) |
-| ----------- | -------------- | --------------- | ------------------ | ---- | ------- | ------- |
-| Server      | Low            | 4214            | 2                  | 0.05 | 84.28   | 4.21    |
-| Server      | Medium         | 4214            | 30                 | 0.05 | 1264.20 | 63.21   |
-| Server      | High           | 4214            | 80                 | 0.05 | 3371.20 | 168.56  |
-| Workstation | Low            | 2165            | 8                  | 0.1  | 173.20  | 17.32   |
-| Workstation | Medium         | 2165            | 50                 | 0.1  | 1082.50 | 108.25  |
-| Workstation | High           | 2165            | 75                 | 0.1  | 1623.75 | 162.38  |
-| Router      | Low            | 3412            | 2                  | 0.04 | 68.24   | 2.73    |
-| Router      | Medium         | 3412            | 36                 | 0.04 | 1228.32 | 49.13   |
-| Router      | High           | 3412            | 90                 | 0.04 | 3070.80 | 122.83  |
-| Switch      | Low            | 2111            | 2                  | 0.04 | 42.22   | 1.69    |
-| Switch      | Medium         | 2111            | 50                 | 0.04 | 1055.50 | 42.22   |
-| Switch      | High           | 2111            | 89                 | 0.04 | 1878.79 | 75.15   |
-| Laptop      | Low            | 2444            | 8                  | 0.11 | 195.52  | 21.51   |
-| Laptop      | Medium         | 2444            | 30                 | 0.11 | 733.20  | 80.65   |
-| Laptop      | High           | 2444            | 86                 | 0.11 | 2101.84 | 231.20  |
-| Printer     | Low            | 988             | 4                  | 0.11 | 39.52   | 4.35    |
-| Printer     | Medium         | 988             | 50                 | 0.11 | 494.00  | 54.34   |
-| Printer     | High           | 988             | 90                 | 0.11 | 889.20  | 97.81   |
+![summary-chart](../AT01//photos/image-20-summary-table.png)
 
 ---
 
@@ -514,8 +484,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 1 original](../AT01//photos/image-01.png)
 
+***After**
  ![Error 1 corrected](../AT01//photos/image-02.png)
 
 **Error #2: Unclosed String in os.system()**
@@ -532,8 +504,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 2 original](../AT01//photos/image-03.png)
 
+***After**
  ![Error 2 corrected](../AT01//photos/image-04.png)
 
 **Error #3: Misplaced Print Statement**
@@ -550,8 +524,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 3 original](../AT01//photos/image-05.png)
 
+***After**
  ![Error 3 corrected](../AT01//photos/image-06.png)
 
 **Error #4: Unclosed Bracket in hours Input**
@@ -568,8 +544,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 4 original](../AT01//photos/image-07.png)
 
+***After**
  ![Error 4 corrected](../AT01//photos/image-08.png)
 
 **Error #5: Multiple Syntax Errors in rate Input**
@@ -592,8 +570,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 5 original](../AT01//photos/image-09.png)
 
+***After**
  ![Error 5 corrected](../AT01//photos/image-10.png)
 
 **Error #6: Missing Spaces in Calculation**
@@ -610,8 +590,10 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
+***Before**
  ![Error 6 original](../AT01//photos/image-11.png)
 
+***After**
  ![Error 6 corrected](../AT01//photos/image-12.png)
 
 #### Enhancements Made

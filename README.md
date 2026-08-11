@@ -1,5 +1,7 @@
 # SLE ALE Risk Calculator
 
+![SLE ALE Risk Calculator](photos/image-23-html.png)
+
 A small Flask web app that calculates cyber risk exposure using the Single Loss Expectancy (SLE) and Annualised Loss Expectancy (ALE) formulas. Built as part of my Certificate IV in Cyber Security (ICTPRG435, Write scripts for software applications).
 
 ## What SLE and ALE actually mean

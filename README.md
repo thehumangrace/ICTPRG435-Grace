@@ -36,7 +36,7 @@ Two Flask routes handle everything: one renders the form and processes submissio
 
 ## Screenshots
 
-Input and output chart and desk check results, are in `/screenshots`.
+Input and output chart and desk check results, are in `/photos`.
 
 ## Project structure
 

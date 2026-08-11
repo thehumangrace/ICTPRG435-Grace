@@ -58,7 +58,7 @@ sle-ale-risk-calculator/
 │   ├── spinning_globe.gif
 │   ├── netscape_picture.gif
 │   └── hack_the_planet.gif
-├── screenshots/
+├── photos/
 ├── corrected_scripts/
 └── docs/
 ```

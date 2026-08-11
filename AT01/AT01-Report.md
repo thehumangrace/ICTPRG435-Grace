@@ -46,7 +46,7 @@
 
 ## Introduction
 
-This assessment will demonstrate my ability to design, write, and test Python applications that meet specific user and business requirements. Each project task highlights different aspects of programming, including planning and documentation using pseudocode and Input-process-output charts, to writing clean, functional Python scripts with validation and proper use of commenting. The assessment also focuses on identifying and correcting syntax and logic errors and writing thorough structured debugging documentation. Together, these tasks show how programming principles can be applied to create reliable, user-friendly, and well-documented software solutions.
+This assessment will demonstrate my ability to design, write and test Python applications that meet specific user and business requirements. Each project task highlights different aspects of programming, including planning and documentation using pseudocode and Input-process-output charts, to writing clean, functional Python scripts with validation and proper use of commenting. The assessment also focuses on identifying and correcting syntax and logic errors and writing thorough structured debugging documentation. Together, these tasks show how programming principles can be applied to create reliable, user-friendly and well-documented software solutions.
 
 ---
 
@@ -700,7 +700,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 ## Conclusion
 
-Completing this assessment has reinforced my understanding of structured programming, debugging, and user interface design. It has been a very new experience for me to deal with core programming concepts like error handling, pseudo-code writing and creating/testing an entire web app (with python, html and css). Overall, this project has strengthened my skills in writing professional looking, maintainable code and demonstrated how patience and testing are essential to successful software development.
+Completing this assessment has reinforced my understanding of structured programming, debugging and user interface design. It has been a very new experience for me to deal with core programming concepts like error handling, pseudo-code writing and creating/testing an entire web app (with python, html and css). Overall, this project has strengthened my skills in writing professional looking, maintainable code and demonstrated how patience and testing are essential to successful software development.
 
 ---
 

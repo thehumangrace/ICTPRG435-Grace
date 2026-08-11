@@ -97,4 +97,4 @@ The app runs at `http://localhost:8080`.
 
 ## Project background
 
-Built for the ICTPRG435 unit at The Gordon, October 2025. The original assessment covered application design, pseudocode, a desk check against sample device data and the debugging work described above. The full assessment report is in `/docs/full_report.md`.
+Built for the ICTPRG435 unit at The Gordon, October 2025. The original assessment covered application design, pseudocode, a desk check against sample device data and the debugging work described in '/docs/project-brief. The full assessment report is in `/docs/full_report.md`.

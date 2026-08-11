@@ -9,7 +9,7 @@ Risk analysts use these two formulas to put a dollar figure on the damage a cybe
 - **Single Loss Expectancy (SLE)**: how much a single incident would cost. Calculated as Asset Value × Exposure Value.
 - **Annualised Loss Expectancy (ALE)**: how much that risk is expected to cost per year. Calculated as SLE × Annualised Rate of Occurrence (ARO).
 
-The app takes an asset value, an exposure percentage, and an ARO, then returns both figures.
+The app takes an asset value, an exposure percentage and an ARO, then returns both figures.
 
 ## Features
 
@@ -36,7 +36,7 @@ Two Flask routes handle everything: one renders the form and processes submissio
 
 ## Screenshots
 
-Input and output chart, and desk check results, are in `/screenshots`.
+Input and output chart and desk check results, are in `/screenshots`.
 
 ## Project structure
 
@@ -69,11 +69,11 @@ The `templates` and `static` folders follow Flask's default convention, so `app.
 
 Part of this assessment involved taking three broken scripts and correcting every syntax and logic error in them:
 
-- **Application 3a**: fixed a missing colon, a malformed class definition, and swapped a hardcoded pi value for `math.pi`
-- **Application 3b**: rebuilt a broken Tkinter GUI, fixed incorrect casing on `tkinter`, and added error handling for invalid input
+- **Application 3a**: fixed a missing colon, a malformed class definition and swapped a hardcoded pi value for `math.pi`
+- **Application 3b**: rebuilt a broken Tkinter GUI, fixed incorrect casing on `tkinter` and added error handling for invalid input
 - **Application 3c**: added input validation loops for hours and pay rate, so the script no longer crashes on bad input
 
-The corrected scripts are in `/corrected_scripts`, and the full debugging log with before and after screenshots is in `/docs`.
+The corrected scripts are in `/corrected_scripts` and the full debugging log with before and after screenshots is in `/docs`.
 
 ## Setup
 
@@ -88,4 +88,4 @@ The app runs at `http://localhost:8080`.
 
 ## Project background
 
-Built for the ICTPRG435 unit at The Gordon, October 2025. The original assessment covered application design, pseudocode, a desk check against sample device data, and the debugging work described above. The full assessment report is in `/docs/full_report.md`.
+Built for the ICTPRG435 unit at The Gordon, October 2025. The original assessment covered application design, pseudocode, a desk check against sample device data and the debugging work described above. The full assessment report is in `/docs/full_report.md`.

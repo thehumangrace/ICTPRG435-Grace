@@ -77,11 +77,11 @@ Software Consultant
 
 ### Input-Process-Output Chart
 
- ![input-output-chart](../AT01//photos/image-21-input-output-table.png)
+ ![input-output-chart](../photos/image-21-input-output-table.png)
 
 ### Variable List
 
-![variable-chart](../AT01//photos/image-22-variable-table.png)
+![variable-chart](../photos/image-22-variable-table.png)
 
 ### English Method (Pseudocode)
 
@@ -274,7 +274,7 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 ```
 
 ### Desk Check - Summary Table - All Results
-![summary-chart](../AT01//photos/image-20-summary-table.png)
+![summary-chart](../photos/image-20-summary-table.png)
 
 ---
 
@@ -485,10 +485,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 1 original](../AT01//photos/image-01.png)
+ ![Error 1 original](../photos/image-01.png)
 
 ***After**
- ![Error 1 corrected](../AT01//photos/image-02.png)
+ ![Error 1 corrected](../photos/image-02.png)
 
 **Error #2: Unclosed String in os.system()**
 
@@ -505,10 +505,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 2 original](../AT01//photos/image-03.png)
+ ![Error 2 original](../photos/image-03.png)
 
 ***After**
- ![Error 2 corrected](../AT01//photos/image-04.png)
+ ![Error 2 corrected](../photos/image-04.png)
 
 **Error #3: Misplaced Print Statement**
 
@@ -525,10 +525,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 3 original](../AT01//photos/image-05.png)
+ ![Error 3 original](../photos/image-05.png)
 
 ***After**
- ![Error 3 corrected](../AT01//photos/image-06.png)
+ ![Error 3 corrected](../photos/image-06.png)
 
 **Error #4: Unclosed Bracket in hours Input**
 
@@ -545,10 +545,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 4 original](../AT01//photos/image-07.png)
+ ![Error 4 original](../photos/image-07.png)
 
 ***After**
- ![Error 4 corrected](../AT01//photos/image-08.png)
+ ![Error 4 corrected](../photos/image-08.png)
 
 **Error #5: Multiple Syntax Errors in rate Input**
 
@@ -571,10 +571,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 5 original](../AT01//photos/image-09.png)
+ ![Error 5 original](../photos/image-09.png)
 
 ***After**
- ![Error 5 corrected](../AT01//photos/image-10.png)
+ ![Error 5 corrected](../photos/image-10.png)
 
 **Error #6: Missing Spaces in Calculation**
 
@@ -591,10 +591,10 @@ print(f"Total Pay is: ${pay:.2f}")
 - **Screenshots:**
 
 ***Before**
- ![Error 6 original](../AT01//photos/image-11.png)
+ ![Error 6 original](../photos/image-11.png)
 
 ***After**
- ![Error 6 corrected](../AT01//photos/image-12.png)
+ ![Error 6 corrected](../photos/image-12.png)
 
 #### Enhancements Made
 
@@ -618,9 +618,9 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshots:**
 
- ![Enhancement 1 part 1](../AT01//photos/image-13.png)
+ ![Enhancement 1 part 1](../photos/image-13.png)
 
- ![Enhancement 1 part 2](../AT01//photos/image-14.png)
+ ![Enhancement 1 part 2](../photos/image-14.png)
 
 **Enhancement #2: Improved Output Formatting**
 
@@ -636,7 +636,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshot:**
 
- ![Enhancement 2](../AT01//photos/image-15.png)
+ ![Enhancement 2](../photos/image-15.png)
 
 #### Testing Results
 
@@ -652,7 +652,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshot:**
 
- ![Test 1](../AT01//photos/image-16.png)
+ ![Test 1](../photos/image-16.png)
 
 **Test 2: Negative Hours**
 
@@ -666,7 +666,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshot:**
 
- ![Test 2](../AT01//photos/image-17.png)
+ ![Test 2](../photos/image-17.png)
 
 **Test 3: Non-numeric Input (Letters)**
 
@@ -680,7 +680,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshot:**
 
- ![Test 3](../AT01//photos/image-18.png)
+ ![Test 3](../photos/image-18.png)
 
 **Test Case 4: Decimal Values**
 
@@ -694,7 +694,7 @@ print(f"Total Pay is: ${pay:.2f}")
 
 - **Screenshot:**
 
- ![Test 4](../AT01//photos/image-19.png)
+ ![Test 4](../photos/image-19.png)
 
 ---
 

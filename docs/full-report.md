@@ -273,6 +273,10 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 
 ```
 
+![The finished SLE ALE calculator running in browser](../photos/image-23-html.png)
+
+*The finished calculator, styled with a deliberate late 90s web aesthetic.*
+
 ### Desk Check - Summary Table - All Results
 ![summary-chart](../photos/image-20-summary-table.png)
 

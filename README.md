@@ -40,8 +40,8 @@ Input and output chart and desk check results, are in `/screenshots`.
 
 ## Project structure
 
-```sle-ale-risk-calculator/
-├── README.md
+```
+sle-ale-risk-calculator/
 ├── app.py
 ├── requirements.txt
 ├── templates/
@@ -59,17 +59,8 @@ Input and output chart and desk check results, are in `/screenshots`.
 │   ├── netscape_picture.gif
 │   └── hack_the_planet.gif
 ├── screenshots/
-│   ├── image-01.png ... image-19.png
-│   ├── image-20-summary-table.png
-│   ├── image-21-input-output-table.png
-│   └── image-22-variable-table.png
 ├── corrected_scripts/
-│   ├── Application_3a.py
-│   ├── Application_3b.py
-│   └── Application_3c.py
 └── docs/
-    ├── project_brief.md
-    └── full_report.md
 ```
 
 The `templates` and `static` folders follow Flask's default convention, so `app.py` finds them without any extra configuration.
@@ -97,4 +88,4 @@ The app runs at `http://localhost:8080`.
 
 ## Project background
 
-Built for the ICTPRG435 unit at The Gordon, October 2025. The original assessment covered application design, pseudocode, a desk check against sample device data and the debugging work described in '/docs/project-brief. The full assessment report is in `/docs/full_report.md`.
+Built during my Certificate IV in Cyber Security at The Gordon, October 2025, as a scripting assessment covering application design, pseudocode, a desk check against sample device data and the debugging work described above. The full write up is in [`docs/full-report.md`](https://claude.ai/chat/docs/full-report.md) and the project brief and scenario are covered in [`docs/project-brief.md`](https://claude.ai/chat/docs/project-brief.md).

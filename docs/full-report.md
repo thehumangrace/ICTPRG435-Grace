@@ -273,6 +273,7 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 
 ```
 
+## The Finished Application
 ![The finished SLE ALE calculator running in browser](../photos/image-23-html.png)
 
 *The finished calculator, styled with a deliberate late 90s web aesthetic.*

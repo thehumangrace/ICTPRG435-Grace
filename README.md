@@ -40,8 +40,8 @@ Input and output chart and desk check results, are in `/screenshots`.
 
 ## Project structure
 
-```
-sle-ale-risk-calculator/
+```sle-ale-risk-calculator/
+├── README.md
 ├── app.py
 ├── requirements.txt
 ├── templates/
@@ -59,8 +59,17 @@ sle-ale-risk-calculator/
 │   ├── netscape_picture.gif
 │   └── hack_the_planet.gif
 ├── screenshots/
+│   ├── image-01.png ... image-19.png
+│   ├── image-20-summary-table.png
+│   ├── image-21-input-output-table.png
+│   └── image-22-variable-table.png
 ├── corrected_scripts/
+│   ├── Application_3a.py
+│   ├── Application_3b.py
+│   └── Application_3c.py
 └── docs/
+    ├── project_brief.md
+    └── full_report.md
 ```
 
 The `templates` and `static` folders follow Flask's default convention, so `app.py` finds them without any extra configuration.
